@@ -1,0 +1,192 @@
+@media (max-width:1050px) {
+
+    .text{
+        padding-left: 5px;
+    }
+
+    .social-links{
+        padding: 25px;
+    }
+
+    .initial{
+        margin: 5px;
+    }
+}
+
+@media (max-width:870px) {
+    .initial{
+        font-size: 13px;
+    }
+
+    .social-links{
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:780px) {
+.initial{
+    font-size: 10px;
+}
+
+    .social-links{
+        padding: 10px;
+    }
+
+    .footer{
+        font-size: 10px;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width:680px) {
+
+.start{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.text{
+    padding-top: 30px;
+    width: 90%;
+}
+
+.tabloide{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.button-tabloide{
+    width: 100%;
+    margin: 0;
+}
+
+.img-tabloide{
+    width: 60%;
+}
+
+.social{
+    height: auto;
+}
+
+.ul-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links{
+    margin: 10px 0;
+    position: relative;
+    right: 20px;
+}
+
+.tabloide-link,.contact-links{
+    position: relative;
+    right: 20px;
+}
+
+.img-logos{
+    height: auto;
+}
+
+.ul-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-links{
+    margin: 10px 0;
+}
+}
+
+@media (max-width:580px) {
+
+
+    .mobile{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mobile-link{
+    background-color: blue;
+    color:white;
+    padding: 5% 30px;
+}
+
+.ul-header{
+    display: flex;
+    height: auto;
+}
+
+.foto-mercados{
+    width: 70%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+
+nav{
+    display: none;
+}
+
+.text{
+    font-size: 13px;
+}
+
+.foto-mercados{
+    width: 70%;
+    height: 37vh;
+    margin: 0;
+    margin-top: 15px;
+
+}
+
+h2{
+    font-size: 15px;
+}
+
+.tabloide{
+    height: 55vh;
+}
+
+.button-tabloide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.tabloide-link{
+    position: relative;
+    right:20px;
+}
+
+.social-links{
+    position: relative;
+    right: 20px;
+}
+.card-local{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#local{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.local-left, .local-right{
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+}
+}
